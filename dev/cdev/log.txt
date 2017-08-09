@@ -1,0 +1,10 @@
+# insmod study_module.ko
+$ cat /proc/devices | grep study_dev
+244 study_dev
+# mknod -m0666 /dev/study_dev c 244 0
+$ cat /dev/study_dev                                                                                                  ~/misc/dev/study/kernel_module/dev/cdev
+module init msg
+$ echo "user msg" > /dev/study_dev                                                                                    ~/misc/dev/study/kernel_module/dev/cdev
+$ cat /dev/study_dev                                                                                                  ~/misc/dev/study/kernel_module/dev/cdev
+user msg
+

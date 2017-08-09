@@ -1,0 +1,7 @@
+# insmod study_module.ko
+$ ./test                                                                                                               ~/misc/dev/study/kernel_module/netlink
+sending message to kernel
+waiting for message from kernel
+received message: msg from kernel
+# rmmod study_module.ko
+

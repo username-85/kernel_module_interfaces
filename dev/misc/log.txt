@@ -1,0 +1,7 @@
+# insmod study_module.ko
+# cat /dev/study_dev
+module init msg
+# echo "user msg" > /dev/study_dev
+# cat /dev/study_dev
+user msg
+

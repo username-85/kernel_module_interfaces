@@ -1,0 +1,8 @@
+# cp 99-study_dev.rules /etc/udev/rules.d/
+# insmod study_module.ko
+$ cat /dev/study_dev                                                                                                  ~/misc/dev/study/kernel_module/dev/cdev
+module init msg
+$ echo "user msg" > /dev/study_dev                                                                                    ~/misc/dev/study/kernel_module/dev/cdev
+$ cat /dev/study_dev                                                                                                  ~/misc/dev/study/kernel_module/dev/cdev
+user msg
+

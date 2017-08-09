@@ -1,0 +1,7 @@
+# insmod study_module.ko
+$ cat /proc/study                                                                                                         ~/misc/dev/study/kernel_module/proc
+module init msg
+$ echo "user msg" > /proc/study                                                                                           ~/misc/dev/study/kernel_module/proc
+$ cat /proc/study                                                                                                         ~/misc/dev/study/kernel_module/proc
+user msg% 
+

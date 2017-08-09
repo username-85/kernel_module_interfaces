@@ -1,0 +1,10 @@
+# insmod study_module.ko
+# mknod -m0666 /dev/study_dev c 200 0
+# ./ioctl_test
+IOCTL_GET
+module init msg
+
+IOCTL_SET
+IOCTL_GET
+user msg
+

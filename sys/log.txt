@@ -1,0 +1,7 @@
+# insmod study_module.ko
+# cat /sys/kernel/study_kobject/val
+0
+# echo 123 > /sys/kernel/study_kobject/val
+# cat /sys/kernel/study_kobject/val
+123
+
